@@ -47,27 +47,3 @@ const Data = () => {
                     <br />
                     <h1>ReactJS is one of the most popular JavaScript libraries for mobile and web application development. Created by Facebook, React contains a collection of reusable JavaScript code snippets used for user interface (UI) building called components.</h1>
                 </div>
-                <div>
-                <p className='font-bold'>The differences between props and state</p>
-                    <br />
-                    <h1> <span className='font-bold'> Props:</span> Props are known as properties it can be used to pass data from one component to another. Props cannot be modified, read-only, and Immutable. <br />
-                    <span className='font-bold'>State: </span>  The state represents parts of an Application that can change. Each component can have its State. The state is Mutable and It is local to the component only.
-                    </h1>
-                </div>
-                <div>
-                <p className='font-bold'>What type of work doing in useEffect</p>
-                    <br />
-                    <h1>UseEffect use Reading from local storage and also used
-                    Registering and deregistering event listeners</h1>
-                </div>
-                </div>
-                </div>
-                <div className='cart-container'>
-                   <Cart cart={cart}></Cart>
-                </div>
-        </div>
-       </div>
-    );
-};
-
-export default Data;
