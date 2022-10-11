@@ -25,7 +25,7 @@ const Cart = (props) => {
                      <div className="w-24 mask mask-squircle"> 
                       <img src="/images/azizul.jpg"  alt=''/> 
                       </div>
-                      <span className='font-bold'>Azizul Hakim</span>
+                      <span className='font-bold'>Md.Jahid Khan</span>
                     </div>
                     </div>
                     <div>
